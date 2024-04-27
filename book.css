@@ -1,77 +1,110 @@
 body {
-    background-color: #f8f9fa;
-}
-
-a {
-    color: #808d9a;
-    text-decoration: none;
-}
-
-#container {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid #808d9a;
-}
-
-header {
-    background-color: #808d9a;
-    padding: 20px;
+    background-color: rgb(208, 207, 207);
+    margin: 50px;
+  }
+  
+  .container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    position: relative;
+  
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  
+  }
+  
+  th {
+    background-color: gray;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  tr {
+    border-spacing: 2px;
+  }
+  
+  h1 {
     text-align: center;
-    font-style: italic;
-}
-
-#main-navi {
-    border-bottom: 2px solid #808d9a;
-}
-
-#main-navi ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px;
-    margin: 0px;
-}
-
-#main-navi ul li {
-    padding: 5px;
-    margin-right: 10px;
-}
-
-main {
-    padding: 20px;
-    padding-top: 5px;
-}
-
-.book {
-    border: 1px solid #808d9a;
-    padding: 10px;
-    padding-bottom: 0px;
-    margin-bottom: 5px;
-}
-
-.book h3 {
-    padding: 0px;
-    margin: 0px;
-}
-
-.bookmark {
-    color: #ffd700;
+    margin-bottom: 20px;
+  }
+  
+  #edit {
+    font-size: 18px;
     text-decoration: none;
-    font-size: 2rem;
-    float: right;
-}
-
-.publishing-info {
-    color: #808d9a;
-    margin-top: 0px;
-}
-
-label {
-    display: inline-block;
-    width: 100px;
-}
-
-.deleteform {
-    float: right;
-}
+    background-color: rgb(4, 102, 4);
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 3px;
+  }
+  
+  #delete {
+    font-size: 18px;
+    text-decoration: none;
+    background-color: rgb(210, 35, 35);
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 3px;
+  }
+  
+  /* Create Books */
+  
+  form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    text-align: left;
+    width: 500px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    width: 150px;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: coral;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #createbook {
+    position: absolute;
+    bottom: 20;
+    right: 40;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(70, 70, 206);
+    color: #fff;
+    cursor: pointer;
+  }
