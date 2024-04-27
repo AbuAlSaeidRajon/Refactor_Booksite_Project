@@ -18,7 +18,7 @@ addBooks();
 
 <body>
     <div>
-        <h1>ADD BOOKS</h1>
+        <h1>Add Books</h1>
         <form action="addbook.php" method="post">
             <label>
                 Title:<input type="text" name="title"><br>
